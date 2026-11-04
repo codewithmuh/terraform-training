@@ -35,3 +35,16 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Environment & Secrets Standard
+.env
+.env.*
+!.env.example
+*.backend.env
+*.local.env
+*.prod.env
+*.pem
+*.key
+*.tfstate
+*.tfstate.*
+credentials.json
